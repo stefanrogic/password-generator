@@ -12,8 +12,8 @@ password_list = []
 
 # Inputs for user to give some parameters
 nr_letters= int(input("How many letters would you like in your password?: "))
-nr_numbers = int(input(f"How many numbers would you like?: "))
-nr_symbols = int(input(f"How many symbols would you like?: "))
+nr_numbers = int(input(f"How many numbers would you like in your password?: "))
+nr_symbols = int(input(f"How many symbols would you like in your password?: "))
 
 # Loops for randomly selecting chars out of arrays
 for char in range(1, nr_letters + 1):
